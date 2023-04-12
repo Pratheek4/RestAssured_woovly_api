@@ -1,0 +1,633 @@
+Request method:	POST
+Request URI:	https://alpha.woovly.com/addAllTypeUser
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "pratheekp@gmail.com",
+    "password": "PRtk@2821"
+}
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: Origin, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: x-auth-token1111
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET,PUT,POST,DELETE,OPTIONS
+Access-Control-Allow-Headers: Content-type,Accept,x-access-token,X-Key,x-uuid
+Content-Type: application/json; charset=utf-8
+Content-Length: 280
+ETag: W/"118-lGLo3W3NP0LeTPse4f5pgAKxrN4"
+set-cookie: connect.sid=s%3AwyUnd0hQ-VtZBAwsAO6IqmJCbuMt5HDw.KeILyjNMFj%2FHxuMe7pjL6xuwrlow%2F%2BwRRZ6xxV244Hg; Path=/; HttpOnly
+Date: Wed, 12 Apr 2023 07:04:10 GMT
+Via: 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+{
+    "error": {
+        "errCode": 0,
+        "errMsg": "User succesfully signedIn"
+    },
+    "data": {
+        "newUser": false,
+        "isCreditClaimed": true,
+        "userId": "51646033558537",
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjUxNjQ2MDMzNTU4NTM3IiwiaWF0IjoxNjgxMjgzMDUwfQ.IdF1iJiX7BCdn2PShH-25Z15sKN8m5k62MpWAllG3nE"
+    }
+}
+Request method:	POST
+Request URI:	https://alpha.woovly.com/order/addtocart
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-key=51646033558537
+				x-access-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjUxNjQ2MDMzNTU4NTM3IiwiaWF0IjoxNjgxMjgzMDUwfQ.IdF1iJiX7BCdn2PShH-25Z15sKN8m5k62MpWAllG3nE
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "product_id": "6685493854387",
+    "quantity": 1,
+    "variant_id": "39785814950067"
+}
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: Origin, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: x-auth-token1111
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET,PUT,POST,DELETE,OPTIONS
+Access-Control-Allow-Headers: Content-type,Accept,x-access-token,X-Key,x-uuid
+Content-Type: application/json; charset=utf-8
+Content-Length: 50
+ETag: W/"32-wg5T5el9asjXPyo5EXVvr9VasTw"
+set-cookie: connect.sid=s%3A2HBqenD3tM3lPIbNGOnTXPmsYDBE2pGy.8cvq%2FLt7%2BtgekpD8GFduJxFh0OKdHQSE27kLPySGN74; Path=/; HttpOnly
+Date: Wed, 12 Apr 2023 07:04:11 GMT
+Via: 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+{
+    "errCode": 0,
+    "errMsg": "Product added Sucessfully"
+}
+Request method:	POST
+Request URI:	https://alpha.woovly.com/addAllTypeUser
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "pratheekp@gmail.com",
+    "password": "PRtk@2821"
+}
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: Origin, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: x-auth-token1111
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET,PUT,POST,DELETE,OPTIONS
+Access-Control-Allow-Headers: Content-type,Accept,x-access-token,X-Key,x-uuid
+Content-Type: application/json; charset=utf-8
+Content-Length: 280
+ETag: W/"118-CPGAMzyX5nWpA12QWMV43OT8el4"
+set-cookie: connect.sid=s%3A6IcTwoe0aoiT6hbv5GYxIY7ELo9sMZXi.vy4FgyJ8gx9CfJWiIJGmAI3qrYX1VC4xaToZ72lE%2BmQ; Path=/; HttpOnly
+Date: Wed, 12 Apr 2023 07:04:11 GMT
+Via: 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+{
+    "error": {
+        "errCode": 0,
+        "errMsg": "User succesfully signedIn"
+    },
+    "data": {
+        "newUser": false,
+        "isCreditClaimed": true,
+        "userId": "51646033558537",
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjUxNjQ2MDMzNTU4NTM3IiwiaWF0IjoxNjgxMjgzMDUxfQ.XQbZtuMQRvQ2lCvMMcTi7lpG-aKgklSDjvsKCI74lZU"
+    }
+}
+Request method:	POST
+Request URI:	https://alpha.woovly.com/order/addtocart
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-key=51646033558537
+				x-access-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjUxNjQ2MDMzNTU4NTM3IiwiaWF0IjoxNjgxMjgzMDUxfQ.XQbZtuMQRvQ2lCvMMcTi7lpG-aKgklSDjvsKCI74lZU
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "product_id": "6685493854387",
+    "quantity": 6,
+    "variant_id": "39785814950067"
+}
+HTTP/1.1 400 Bad Request
+X-Powered-By: Express
+Vary: Origin, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: x-auth-token1111
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET,PUT,POST,DELETE,OPTIONS
+Access-Control-Allow-Headers: Content-type,Accept,x-access-token,X-Key,x-uuid
+Content-Type: application/json; charset=utf-8
+Content-Length: 45
+ETag: W/"2d-bu3HnaMrmV9GOr6hs1JuGR1ittE"
+set-cookie: connect.sid=s%3AG8hSp8mrGSNw_8xPgqfK3zk99o_BDdak.kcK%2F4v8XEp4Rg%2Fk2qLVfYWq21%2BwTJ8N1vGi4%2FUf9vGk; Path=/; HttpOnly
+Date: Wed, 12 Apr 2023 07:04:12 GMT
+Via: 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+{
+    "errCode": 1,
+    "errMsg": "Can't add more items"
+}
+Request method:	POST
+Request URI:	https://alpha.woovly.com/addAllTypeUser
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "pratheekp@gmail.com",
+    "password": "PRtk@2821"
+}
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: Origin, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: x-auth-token1111
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET,PUT,POST,DELETE,OPTIONS
+Access-Control-Allow-Headers: Content-type,Accept,x-access-token,X-Key,x-uuid
+Content-Type: application/json; charset=utf-8
+Content-Length: 280
+ETag: W/"118-jHFSovOcOC8BzIgzGJDEuTZnf6o"
+set-cookie: connect.sid=s%3Agc25LfiTIHf_OOE8lyKt7frLhNt1K27l.Beb9l%2FPt2iY4V7PegZa67MVjsFSByUsSS%2BC%2F8EdksiI; Path=/; HttpOnly
+Date: Wed, 12 Apr 2023 07:04:12 GMT
+Via: 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+{
+    "error": {
+        "errCode": 0,
+        "errMsg": "User succesfully signedIn"
+    },
+    "data": {
+        "newUser": false,
+        "isCreditClaimed": true,
+        "userId": "51646033558537",
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjUxNjQ2MDMzNTU4NTM3IiwiaWF0IjoxNjgxMjgzMDUyfQ.gkwYSIIiKmlm0u3OHXvHWYi7SeF6genEsYo2CRJVS7A"
+    }
+}
+Request method:	POST
+Request URI:	https://alpha.woovly.com/order/addtocart
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-key=51646033558537
+				x-access-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjUxNjQ2MDMzNTU4NTM3IiwiaWF0IjoxNjgxMjgzMDUyfQ.gkwYSIIiKmlm0u3OHXvHWYi7SeF6genEsYo2CRJVS7A
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "product_id": "668549385438",
+    "quantity": 2,
+    "variant_id": "39785814950067"
+}
+HTTP/1.1 404 Not Found
+X-Powered-By: Express
+Vary: Origin, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: x-auth-token1111
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET,PUT,POST,DELETE,OPTIONS
+Access-Control-Allow-Headers: Content-type,Accept,x-access-token,X-Key,x-uuid
+Content-Type: application/json; charset=utf-8
+Content-Length: 73
+ETag: W/"49-slUv1O2x2YZxPV3p33Q1R+KeiEk"
+set-cookie: connect.sid=s%3A--I-TB0k9xjyW18y3PCrbUiA3-WSpyHm.aUANM6rDGOMDrmselpEYhwYGsNSFm3I6yTRYiQNpif0; Path=/; HttpOnly
+Date: Wed, 12 Apr 2023 07:04:12 GMT
+Via: 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+{
+    "dbREsult": 0,
+    "errCode": 1,
+    "errMsg": "Produt does not exists/Out of Stock"
+}
+Request method:	POST
+Request URI:	https://alpha.woovly.com/addAllTypeUser
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "pratheekp@gmail.com",
+    "password": "PRtk@2821"
+}
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: Origin, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: x-auth-token1111
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET,PUT,POST,DELETE,OPTIONS
+Access-Control-Allow-Headers: Content-type,Accept,x-access-token,X-Key,x-uuid
+Content-Type: application/json; charset=utf-8
+Content-Length: 280
+ETag: W/"118-jHFSovOcOC8BzIgzGJDEuTZnf6o"
+set-cookie: connect.sid=s%3ASrEJVsa9UAZE2uA2BjmvLTwglMvY8EXb.hOWlhc8ct1fdg2%2BG6H4VIJ96DzZFjzm6G1gM0hMk5gg; Path=/; HttpOnly
+Date: Wed, 12 Apr 2023 07:04:12 GMT
+Via: 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+{
+    "error": {
+        "errCode": 0,
+        "errMsg": "User succesfully signedIn"
+    },
+    "data": {
+        "newUser": false,
+        "isCreditClaimed": true,
+        "userId": "51646033558537",
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjUxNjQ2MDMzNTU4NTM3IiwiaWF0IjoxNjgxMjgzMDUyfQ.gkwYSIIiKmlm0u3OHXvHWYi7SeF6genEsYo2CRJVS7A"
+    }
+}
+Request method:	POST
+Request URI:	https://alpha.woovly.com/fetchCartDetails
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-key=51646033558537
+				x-access-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjUxNjQ2MDMzNTU4NTM3IiwiaWF0IjoxNjgxMjgzMDUyfQ.gkwYSIIiKmlm0u3OHXvHWYi7SeF6genEsYo2CRJVS7A
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "coupon_id": "",
+    "coupon_title": "",
+    "is_coins_apply": false,
+    "payment_mode": ""
+}
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: Origin, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: x-auth-token1111
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET,PUT,POST,DELETE,OPTIONS
+Access-Control-Allow-Headers: Content-type,Accept,x-access-token,X-Key,x-uuid
+Content-Type: application/json; charset=utf-8
+ETag: W/"706-8P9oSeS+k7ki3s5JW7fZh9pD1w8"
+set-cookie: connect.sid=s%3AWaGa4zFhm0Luo1qrL27UGIjgHgrvGKN6.mm4OXA%2FaNLchlhihBt6VrPtVFShQlPm9EY3BRG5dS0Q; Path=/; HttpOnly
+Content-Encoding: gzip
+Date: Wed, 12 Apr 2023 07:04:13 GMT
+Via: 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Transfer-Encoding: chunked
+
+{
+    "product_list": [
+        {
+            "product_id": 6685493854387,
+            "pid": 6685493854387,
+            "collection_id": "242376310963,249801146547,249804980403,249894863027,249894928563,250224640179,268539134131,279338746035,282542866611,282546798771,400352608479,400352903391,400450191583,400450257119,402870141151,402973229279,408658968799,410166788319,413503193311,416910213343",
+            "is_wishlisted": false,
+            "quantity": 1,
+            "variant_id": 39785814950067,
+            "option1": "",
+            "option2": "",
+            "option3": "",
+            "vid": 39785814950067,
+            "sku": "",
+            "discount_price": "₹100",
+            "discount_price_number": "100",
+            "price": "₹199",
+            "total_product_price": "100.0",
+            "total_mrp_product_price": "199.0",
+            "discount_percentage": "50% OFF",
+            "product_image": "https://cdn.shopify.com/s/files/1/0522/7020/3059/products/Lavender_Lip_Scrub_400x.jpg?v=1663698436",
+            "product_name": "VISHISHT Natural Lavender Lip Scrub",
+            "profile_pic_url": "",
+            "brand_details": {
+                "brand_id": 84532,
+                "brand_name": "Vishisht Lifestyle",
+                "profile_pic_url": ""
+            }
+        }
+    ],
+    "price_details": {
+        "total_product_price": "₹100",
+        "quantity": 1,
+        "coupon_apply_on_price": 100,
+        "total_mrp_price": "₹199",
+        "delivery_charges": "₹50",
+        "amount_to_pay": "₹150",
+        "amount_to_pay_number": 150,
+        "you_saved": "₹99"
+    },
+    "free_delivery_offer_msg": "Shop above ₹350 and get free delivery. ",
+    "is_free_delivery": false,
+    "cart_product_count": 1,
+    "wishlist_product_count": 4,
+    "coupon_details": {
+        
+    },
+    "coins_details": {
+        "total_available_coins": 88159,
+        "coins_applied": 2000,
+        "coins_value": "₹20",
+        "coins_redeem_msg": "<p>₹1 = 100 Coins. Use 20% coins upto 20000 coins <br> on your  cart value.</p>",
+        "coins_earned": 5000,
+        "coins_earned_msg": "<p> Get 5000 coins for every order.</p>",
+        "coins_apply_status": false
+    },
+    "address": {
+        
+    },
+    "cToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI1MTY0NjAzMzU1ODUzNyIsImlhdCI6MTY4MTI4MzA1MywiZXhwIjoxNjgxMjgzNjUzfQ.ZN_CLhE6qjP7w4KNoU_KbTI2lCj7JNqt0MFQRDvFYaw"
+}
+Request method:	POST
+Request URI:	https://alpha.woovly.com/checkIfUserExists
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "pratheekp@woovly.com"
+}
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: Origin, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: x-auth-token1111
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET,PUT,POST,DELETE,OPTIONS
+Access-Control-Allow-Headers: Content-type,Accept,x-access-token,X-Key,x-uuid
+Content-Type: application/json; charset=utf-8
+Content-Length: 71
+ETag: W/"47-v0GboX/GlyLwrFJfyZDhNf1gt2M"
+set-cookie: connect.sid=s%3AEA7AfGOpb4vMkTgQujBIXXi7ImXzUr_L.FcTIcShchio4OCYYI805xNyNYfS%2FgDeVUCC8UKtK0pM; Path=/; HttpOnly
+Date: Wed, 12 Apr 2023 07:04:13 GMT
+Via: 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+{
+    "error": {
+        "errCode": 1,
+        "errMsg": "User already exist"
+    },
+    "isExisting": true
+}
+Request method:	POST
+Request URI:	https://alpha.woovly.com/checkIfUserExists
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "pratheek12344@gmail.com"
+}
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: Origin, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: x-auth-token1111
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET,PUT,POST,DELETE,OPTIONS
+Access-Control-Allow-Headers: Content-type,Accept,x-access-token,X-Key,x-uuid
+Content-Type: application/json; charset=utf-8
+Content-Length: 61
+ETag: W/"3d-YNfsCiyFUJcMRVR/JKSwq1Syjqw"
+set-cookie: connect.sid=s%3AysHJEpQWk3U96kNGJTnR_KDzRPMx6jx7.%2BUKQpNp58irgCE8LIwJd1rEqAsb8J4f0jqMz%2Fx7v7pM; Path=/; HttpOnly
+Date: Wed, 12 Apr 2023 07:04:13 GMT
+Via: 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+{
+    "error": {
+        "errCode": 0,
+        "errMsg": "Success"
+    },
+    "isExisting": false
+}
+Request method:	POST
+Request URI:	https://alpha.woovly.com/checkIfUserExists
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "mobile": "9986696534"
+}
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: Origin, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: x-auth-token1111
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET,PUT,POST,DELETE,OPTIONS
+Access-Control-Allow-Headers: Content-type,Accept,x-access-token,X-Key,x-uuid
+Content-Type: application/json; charset=utf-8
+Content-Length: 71
+ETag: W/"47-v0GboX/GlyLwrFJfyZDhNf1gt2M"
+set-cookie: connect.sid=s%3A4LbjZNCIDTEw9Y8yNVA_4h60rAq6beOV.kz4H6W%2Fk2f42pc7DYif1NTH5aaYasYX0r%2BdHxfRexQ8; Path=/; HttpOnly
+Date: Wed, 12 Apr 2023 07:04:13 GMT
+Via: 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+{
+    "error": {
+        "errCode": 1,
+        "errMsg": "User already exist"
+    },
+    "isExisting": true
+}
+Request method:	POST
+Request URI:	https://alpha.woovly.com/checkIfUserExists
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "mobile": "9087654321"
+}
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: Origin, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: x-auth-token1111
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET,PUT,POST,DELETE,OPTIONS
+Access-Control-Allow-Headers: Content-type,Accept,x-access-token,X-Key,x-uuid
+Content-Type: application/json; charset=utf-8
+Content-Length: 61
+ETag: W/"3d-YNfsCiyFUJcMRVR/JKSwq1Syjqw"
+set-cookie: connect.sid=s%3APVey_LHaAEFV_Z-3yoJOl_gRsbhOgb7h.%2FnlteMi2coA%2Bxk%2F5O3HTzaRr5xIhD%2FHnTx40T8M4UTM; Path=/; HttpOnly
+Date: Wed, 12 Apr 2023 07:04:14 GMT
+Via: 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+{
+    "error": {
+        "errCode": 0,
+        "errMsg": "Success"
+    },
+    "isExisting": false
+}
+Request method:	POST
+Request URI:	https://alpha.woovly.com/addAllTypeUser
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "mobile": "9986696534",
+    "idToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtb2JpbGUiOiI5OTg2Njk2NTM0IiwiaWF0IjoxNjgwNjExOTMzfQ.fBotPR3NgYdGBL2rAGcV5VlyDc0rfkgLIIo1JiIQLfM"
+}
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: Origin, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: x-auth-token1111
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET,PUT,POST,DELETE,OPTIONS
+Access-Control-Allow-Headers: Content-type,Accept,x-access-token,X-Key,x-uuid
+Content-Type: application/json; charset=utf-8
+Content-Length: 429
+ETag: W/"1ad-BrLFvJ6SkPa/RNzTKHDSKBvYNag"
+set-cookie: connect.sid=s%3AyAlf3wRea9OGGCyKe8sEgzmdjbDl95Pp.EkvAFapOp2xGT5BqHhyU1P05Q3HEHmyHV8PKPkyaCtA; Path=/; HttpOnly
+Date: Wed, 12 Apr 2023 07:04:14 GMT
+Via: 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+{
+    "error": {
+        "errCode": 0,
+        "errMsg": "User succesfully signedIn"
+    },
+    "data": {
+        "newUser": false,
+        "isCreditClaimed": true,
+        "token_fb": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtb2JpbGUiOiI5OTg2Njk2NTM0IiwiaWF0IjoxNjgwNjExOTMzfQ.fBotPR3NgYdGBL2rAGcV5VlyDc0rfkgLIIo1JiIQLfM",
+        "userId": "51646033558537",
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjUxNjQ2MDMzNTU4NTM3IiwiaWF0IjoxNjgxMjgzMDU0fQ.7vMoAhSYONZhm64k6ovAsMID2D4cTDU1wXKWx6bonOY"
+    }
+}
+Request method:	POST
+Request URI:	https://alpha.woovly.com/addAllTypeUser
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "pratheekp@gmail.com",
+    "password": "PRtk@2821"
+}
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: Origin, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: x-auth-token1111
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET,PUT,POST,DELETE,OPTIONS
+Access-Control-Allow-Headers: Content-type,Accept,x-access-token,X-Key,x-uuid
+Content-Type: application/json; charset=utf-8
+Content-Length: 280
+ETag: W/"118-dEi/ij0jFMBacSF+ZtSGPOz+ANI"
+set-cookie: connect.sid=s%3AxI74Rbhg0X3vrAWXzGqNv1YKfIxicq81.S6aDgxMd7cU0VT0ONri5Ghj3Sv8lrKxvCwmtBVFoacI; Path=/; HttpOnly
+Date: Wed, 12 Apr 2023 07:04:14 GMT
+Via: 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+{
+    "error": {
+        "errCode": 0,
+        "errMsg": "User succesfully signedIn"
+    },
+    "data": {
+        "newUser": false,
+        "isCreditClaimed": true,
+        "userId": "51646033558537",
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjUxNjQ2MDMzNTU4NTM3IiwiaWF0IjoxNjgxMjgzMDU0fQ.7vMoAhSYONZhm64k6ovAsMID2D4cTDU1wXKWx6bonOY"
+    }
+}

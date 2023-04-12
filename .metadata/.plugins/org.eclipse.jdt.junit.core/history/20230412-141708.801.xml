@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="woovly.api" tests="10" started="10" failures="0" errors="0" ignored="0">
+  <testsuite name="cucumber.Options.TestRunner" time="2.876">
+    <testsuite name="Validate Cart flow Api's" time="2.282">
+      <testcase name="Verify Product added Sucessfully to the cart #1" classname="Validate Cart flow Api's" time="1.368"/>
+      <testcase name="Verify Product added Sucessfully to the cart #2" classname="Validate Cart flow Api's" time="0.211"/>
+      <testcase name="Verify Product added Sucessfully to the cart #3" classname="Validate Cart flow Api's" time="0.223"/>
+      <testcase name="Verify Product details fetched Sucessfully" classname="Validate Cart flow Api's" time="0.48"/>
+    </testsuite>
+    <testsuite name="Vlidating the Login Api's" time="0.594">
+      <testcase name="Verify api is showing correct response on the given mail/phone #1" classname="Vlidating the Login Api's" time="0.1"/>
+      <testcase name="Verify api is showing correct response on the given mail/phone #2" classname="Vlidating the Login Api's" time="0.094"/>
+      <testcase name="Verify api is showing correct response on the given mail/phone #3" classname="Vlidating the Login Api's" time="0.089"/>
+      <testcase name="Verify api is showing correct response on the given mail/phone #4" classname="Vlidating the Login Api's" time="0.086"/>
+      <testcase name="Verify addAllTypeUser is generating user_Id and token #1" classname="Vlidating the Login Api's" time="0.102"/>
+      <testcase name="Verify addAllTypeUser is generating user_Id and token #2" classname="Vlidating the Login Api's" time="0.123"/>
+    </testsuite>
+  </testsuite>
+</testrun>

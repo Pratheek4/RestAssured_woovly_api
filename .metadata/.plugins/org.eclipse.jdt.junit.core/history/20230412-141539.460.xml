@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="woovly.api" tests="10" started="10" failures="0" errors="10" ignored="0">
+  <testsuite name="cucumber.Options.TestRunner" time="0.263">
+    <testsuite name="Validate Cart flow Api's" time="0.25">
+      <testcase name="Verify Product added Sucessfully to the cart #1" classname="Validate Cart flow Api's" time="0.244">
+        <error>java.io.FileNotFoundException: /Users/woovly/Desktop/FILES/Selenium - Framwork/woovly.api/src/test/java/resource/global.properties (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:111)
+	at resource.Utils.getGlobalValues(Utils.java:36)
+	at resource.Utils.requestSpecification(Utils.java:24)
+	at stepDefinations.LoginSteps.user_payload_for_addalltype_as_login(LoginSteps.java:83)
+	at stepDefinations.Hooks.getIdAndToken(Hooks.java:10)
+
+</error>
+      </testcase>
+      <testcase name="Verify Product added Sucessfully to the cart #2" classname="Validate Cart flow Api's" time="0.002">
+        <error>java.io.FileNotFoundException: /Users/woovly/Desktop/FILES/Selenium - Framwork/woovly.api/src/test/java/resource/global.properties (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:111)
+	at resource.Utils.getGlobalValues(Utils.java:36)
+	at resource.Utils.requestSpecification(Utils.java:24)
+	at stepDefinations.LoginSteps.user_payload_for_addalltype_as_login(LoginSteps.java:83)
+	at stepDefinations.Hooks.getIdAndToken(Hooks.java:10)
+
+</error>
+      </testcase>
+      <testcase name="Verify Product added Sucessfully to the cart #3" classname="Validate Cart flow Api's" time="0.003">
+        <error>java.io.FileNotFoundException: /Users/woovly/Desktop/FILES/Selenium - Framwork/woovly.api/src/test/java/resource/global.properties (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:111)
+	at resource.Utils.getGlobalValues(Utils.java:36)
+	at resource.Utils.requestSpecification(Utils.java:24)
+	at stepDefinations.LoginSteps.user_payload_for_addalltype_as_login(LoginSteps.java:83)
+	at stepDefinations.Hooks.getIdAndToken(Hooks.java:10)
+
+</error>
+      </testcase>
+      <testcase name="Verify Product details fetched Sucessfully" classname="Validate Cart flow Api's" time="0.001">
+        <error>java.io.FileNotFoundException: /Users/woovly/Desktop/FILES/Selenium - Framwork/woovly.api/src/test/java/resource/global.properties (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:111)
+	at resource.Utils.getGlobalValues(Utils.java:36)
+	at resource.Utils.requestSpecification(Utils.java:24)
+	at stepDefinations.LoginSteps.user_payload_for_addalltype_as_login(LoginSteps.java:83)
+	at stepDefinations.Hooks.getIdAndToken(Hooks.java:10)
+
+</error>
+      </testcase>
+    </testsuite>
+    <testsuite name="Vlidating the Login Api's" time="0.013">
+      <testcase name="Verify api is showing correct response on the given mail/phone #1" classname="Vlidating the Login Api's" time="0.004">
+        <error>java.io.FileNotFoundException: /Users/woovly/Desktop/FILES/Selenium - Framwork/woovly.api/src/test/java/resource/global.properties (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:111)
+	at resource.Utils.getGlobalValues(Utils.java:36)
+	at resource.Utils.requestSpecification(Utils.java:24)
+	at stepDefinations.LoginSteps.add_user_payload_for(LoginSteps.java:37)
+	at ✽.Add User pratheekp@woovly.com payload for mail(file:///Users/woovly/Desktop/woovly.api/src/test/java/features/Login.feature:20)
+
+</error>
+      </testcase>
+      <testcase name="Verify api is showing correct response on the given mail/phone #2" classname="Vlidating the Login Api's" time="0.002">
+        <error>java.io.FileNotFoundException: /Users/woovly/Desktop/FILES/Selenium - Framwork/woovly.api/src/test/java/resource/global.properties (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:111)
+	at resource.Utils.getGlobalValues(Utils.java:36)
+	at resource.Utils.requestSpecification(Utils.java:24)
+	at stepDefinations.LoginSteps.add_user_payload_for(LoginSteps.java:37)
+	at ✽.Add User pratheek12344@gmail.com payload for mail(file:///Users/woovly/Desktop/woovly.api/src/test/java/features/Login.feature:20)
+
+</error>
+      </testcase>
+      <testcase name="Verify api is showing correct response on the given mail/phone #3" classname="Vlidating the Login Api's" time="0.001">
+        <error>java.io.FileNotFoundException: /Users/woovly/Desktop/FILES/Selenium - Framwork/woovly.api/src/test/java/resource/global.properties (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:111)
+	at resource.Utils.getGlobalValues(Utils.java:36)
+	at resource.Utils.requestSpecification(Utils.java:24)
+	at stepDefinations.LoginSteps.add_user_payload_for(LoginSteps.java:40)
+	at ✽.Add User 9986696534 payload for phone(file:///Users/woovly/Desktop/woovly.api/src/test/java/features/Login.feature:20)
+
+</error>
+      </testcase>
+      <testcase name="Verify api is showing correct response on the given mail/phone #4" classname="Vlidating the Login Api's" time="0.003">
+        <error>java.io.FileNotFoundException: /Users/woovly/Desktop/FILES/Selenium - Framwork/woovly.api/src/test/java/resource/global.properties (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:111)
+	at resource.Utils.getGlobalValues(Utils.java:36)
+	at resource.Utils.requestSpecification(Utils.java:24)
+	at stepDefinations.LoginSteps.add_user_payload_for(LoginSteps.java:40)
+	at ✽.Add User 9087654321 payload for phone(file:///Users/woovly/Desktop/woovly.api/src/test/java/features/Login.feature:20)
+
+</error>
+      </testcase>
+      <testcase name="Verify addAllTypeUser is generating user_Id and token #1" classname="Vlidating the Login Api's" time="0.001">
+        <error>java.io.FileNotFoundException: /Users/woovly/Desktop/FILES/Selenium - Framwork/woovly.api/src/test/java/resource/global.properties (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:111)
+	at resource.Utils.getGlobalValues(Utils.java:36)
+	at resource.Utils.requestSpecification(Utils.java:24)
+	at stepDefinations.LoginSteps.user_payload_for_addalltype_as_login(LoginSteps.java:81)
+	at ✽.User 9986696534 payload for addAllType eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtb2JpbGUiOiI5OTg2Njk2NTM0IiwiaWF0IjoxNjgwNjExOTMzfQ.fBotPR3NgYdGBL2rAGcV5VlyDc0rfkgLIIo1JiIQLfM as mobile login(file:///Users/woovly/Desktop/woovly.api/src/test/java/features/Login.feature:37)
+
+</error>
+      </testcase>
+      <testcase name="Verify addAllTypeUser is generating user_Id and token #2" classname="Vlidating the Login Api's" time="0.001">
+        <error>java.io.FileNotFoundException: /Users/woovly/Desktop/FILES/Selenium - Framwork/woovly.api/src/test/java/resource/global.properties (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:111)
+	at resource.Utils.getGlobalValues(Utils.java:36)
+	at resource.Utils.requestSpecification(Utils.java:24)
+	at stepDefinations.LoginSteps.user_payload_for_addalltype_as_login(LoginSteps.java:83)
+	at ✽.User pratheekp@gmail.com payload for addAllType PRtk@2821 as email login(file:///Users/woovly/Desktop/woovly.api/src/test/java/features/Login.feature:37)
+
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>
